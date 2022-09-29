@@ -31,8 +31,6 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     }
   }, [link]);
 
-
-
   return (
     <Jumbotron id="aboutme" className="m-0">
       <div className="container row">
@@ -49,7 +47,9 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
         </div>
         <div className={`col-lg-${showPic ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
-          <p className="lead text-center">{message}</p>
+          <p className="lead text-center" >
+            {message}
+          </p>
           {resume && (
             <p className="lead text-center">
               <a

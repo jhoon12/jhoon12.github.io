@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Typist from 'react-typist-component';
+import Typist from "react-typist-component";
 import { Jumbotron } from "./migration";
 
 const MainBody = React.forwardRef(
@@ -21,7 +21,10 @@ const MainBody = React.forwardRef(
             {title}
           </h1>
           <Typist>
-            <div className="lead typist">
+            <div
+              className="lead typist"
+              style={{ fontWeight: "bold", fontSize: 30 }}
+            >
               {message}
             </div>
           </Typist>
