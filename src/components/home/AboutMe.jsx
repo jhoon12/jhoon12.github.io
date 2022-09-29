@@ -47,8 +47,35 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
         </div>
         <div className={`col-lg-${showPic ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
-          <p className="lead text-center" >
-            {message}
+          <p className="lead text-center">
+            <span>
+              항상 성장에 관심을 갖고, 어제보다 더 발전하고자 하는 프론트엔드
+              엔지니어 박재훈입니다.
+            </span>
+            <br />
+            <span>
+              <a
+                href={"https://dsmhs.djsch.kr/main.do"}
+                style={{ textDecoration: "none" }}
+              >
+                대덕소프트웨어마이스터고등학교
+              </a>
+              에서 소프트웨어 개발을 전공 후,
+              <br />
+              <a
+                href={"https://getliner.com"}
+                style={{ textDecoration: "none" }}
+              >
+                라이너
+              </a>
+              에서 근무하며 다양한 프로젝트에 참여하며 성장하고 있습니다.
+              <br />
+              항상 부끄럽지 않은 코드를 남기기 위해 노력하고 있고, 과거 자신의
+              코드를 보며 개선점이 보이고, 고칠 때 가장 크게 희열을 느끼곤
+              합니다.
+              <br />
+              커리어를 돌아보았을 때 <b>우상향하는</b> 개발자가 되고 싶습니다.
+            </span>
           </p>
           {resume && (
             <p className="lead text-center">

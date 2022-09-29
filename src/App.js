@@ -18,7 +18,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
-
+import linerTeam from "./assets/img/linerTeam.jpeg";
 import Experience from "./components/home/Experience";
 
 const Home = React.forwardRef((props, ref) => {
@@ -64,6 +64,19 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          width: "100%",
+        }}
+      >
+        <h3>더 궁금한 점이 있다면??</h3>
+        <a href={"https://liner.oopy.io/"}>
+          <img src={linerTeam} />
+        </a>
+      </div>
     </>
   );
 });

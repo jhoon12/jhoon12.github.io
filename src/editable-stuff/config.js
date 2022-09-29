@@ -23,20 +23,14 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/profile.jpg"),
   imageSize: 375,
-  message:
-    "항상 성장에 관심을 갖고, 어제보다 더 발전하고자 하는 프론트엔드 엔지니어 박재훈입니다. 1년간 라이너에서 근무하며 다양한 프로젝트에 참여했고, 성과에서 많은 즐거움을 느낄 수 있었습니다. 앞으로도 개발자로써 즐거움을 느끼며 개발하고 싶습니다.",
+  message: "",
 };
 
-// PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
-//      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
-//      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 10,
   specificRepos: [],
 };
 
@@ -90,7 +84,7 @@ const skills = {
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: false,
+  show: true,
   heading: "Get In Touch",
   message:
     "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
