@@ -70,6 +70,7 @@ const Home = React.forwardRef((props, ref) => {
           flexDirection: "column",
           alignItems: "center",
           width: "100%",
+          marginBottom: "50px",
         }}
       >
         <h3>더 궁금한 점이 있다면??</h3>
