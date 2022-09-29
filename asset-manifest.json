@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6e238e8a.css",
+    "main.js": "/static/js/main.f7a477e2.js",
+    "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
+    "static/media/profileUi.png": "/static/media/profileUi.bd2a23705b3b3f21697b.png",
+    "static/media/searchPerson.png": "/static/media/searchPerson.642e56fa2a5d9878da62.png",
+    "static/media/ls127.png": "/static/media/ls127.8bc154ca0ade4107b2fb.png",
+    "static/media/ls60.png": "/static/media/ls60.6d6764f8a86bcf3d3d2d.png",
+    "static/media/app-install-banner.png": "/static/media/app-install-banner.42fcbd5b94b2dc65ab6c.png",
+    "static/media/ls68.png": "/static/media/ls68.67a95867f87e2db1799c.png",
+    "static/media/ls82.png": "/static/media/ls82.08237929f462b597e5a9.png",
+    "static/media/bookmark.png": "/static/media/bookmark.f35089860a777907f639.png",
+    "static/media/ls131.png": "/static/media/ls131.4cafc575e0d3d6273d29.png",
+    "static/media/mobile-noti.png": "/static/media/mobile-noti.b53353212b0005e2e878.png",
+    "static/media/recPeople.png": "/static/media/recPeople.818c2bbddd3d07c3b344.png",
+    "static/media/linerTeam.jpeg": "/static/media/linerTeam.03fcb5251791817547e6.jpeg",
+    "static/media/privateNoti.png": "/static/media/privateNoti.d0b38349c7a73afc5908.png",
+    "static/media/ls84.png": "/static/media/ls84.d27baa3e416f21e4e6ba.png",
+    "static/media/school.png": "/static/media/school.b80dd7bdc81b95f1ec45.png",
+    "static/media/samsung.png": "/static/media/samsung.124ddde9a61d84530bc4.png",
+    "static/media/profile.jpg": "/static/media/profile.025ceaa75c01dc81c203.jpg",
+    "static/media/highlightStreak.png": "/static/media/highlightStreak.b760ba6f5f575f49d796.png",
+    "static/media/ls107.png": "/static/media/ls107.35f1a42af959a373c9ea.png",
+    "index.html": "/index.html",
+    "main.6e238e8a.css.map": "/static/css/main.6e238e8a.css.map",
+    "main.f7a477e2.js.map": "/static/js/main.f7a477e2.js.map",
+    "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e238e8a.css",
+    "static/js/main.f7a477e2.js"
+  ]
+}
